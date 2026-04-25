@@ -20,3 +20,7 @@ Dynamic Binding (Late Binding)
     A* obj = new B();
     obj->show();   // Output: B
 }
+
+
+
+With virtual, the function is called based on the object type, NOT the pointer type.
